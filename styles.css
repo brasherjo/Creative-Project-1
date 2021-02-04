@@ -25,6 +25,7 @@ h1{
   background-color: lightblue;
 }
 .shopping-options{
+  padding: 10px;
   border: solid 2px;
   display: flex;
   flex-wrap:wrap;
@@ -95,11 +96,11 @@ h1{
   justify-content: space-between;
 }
 .photo-credit{
-  margin-left: 5px;
+  margin: 2px 0 2px 5px;
 }
 .link{
   list-style-type: none;
-  margin-right: 5px;
+  margin: 2px 5px 2px 0;
   width: auto;
   color: black;
   font-family: sans-serif, "helvetica";
