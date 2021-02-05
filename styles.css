@@ -102,7 +102,7 @@ h1{
 }
 .electronics-header{
   border: solid 2px;
-  width: 75%;
+  width: 85%;
   height: 10%;
   margin: 25px 0 0 10px;
   background-color: lightblue;
@@ -199,7 +199,7 @@ h1{
 }
 .outdoors-header{
   border: solid 2px;
-  width: 55%;
+  width: 75%;
   height: 8%;
   margin: 25px 0 0 10px;
   background-color: lightblue;
@@ -434,7 +434,34 @@ h1{
   /*End of Sports stuff*/
 
   /*Outdoors Stuff*/
-
+  .outdoors-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    margin: 5px;
+  }
+  .outdoors-header{
+    border: solid 2px;
+    width: 35%;
+    height: 5%;
+    margin: 25px 0 0 10px;
+    background-color: lightblue;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .outdoors-options{
+    border: solid 2px;
+    width: 95%;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+  }
   /*End of Outdoors Stuff*/
 }
 
@@ -591,7 +618,7 @@ h1{
   .sports-options{
     border: solid 2px;
     width: 80%;
-    height: 300px;
+    height: 380px;
     margin: 20px;
     display: flex;
     flex-wrap: wrap;
